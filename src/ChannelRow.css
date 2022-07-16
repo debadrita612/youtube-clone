@@ -1,0 +1,49 @@
+.channelRow {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 70%;
+}
+
+.channelRow-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.channelRow-text > p {
+    color: #606060;
+    font-size: small !important;
+}
+
+.channelRow-logo {
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 60px;
+}
+
+.channelRow-text > h4 {
+    display: flex;
+    align-items: center;
+    
+}
+
+.check-icon {
+    font-size: 16px !important;
+    padding-left: 5px;
+    color: #606060;
+}
+
+@media(max-width:768px) {
+    .channelRow {
+        justify-content: center;
+        padding-left: 25px;
+    }
+
+    .channelRow-text {
+        text-align: center;
+    }
+    
+    .channelRow-text > h4 {
+        justify-content: center;
+    }
+}
